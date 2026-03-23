@@ -251,6 +251,25 @@ document.addEventListener('DOMContentLoaded', () => {
             maxZoom: 18,
         }).addTo(map);
 
+        // Fix for mobile rendering issues
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 500);
+
+        window.addEventListener('resize', () => {
+            map.invalidateSize();
+        });
+
+        // Ensure map renders properly when section comes into view
+        const mapObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => map.invalidateSize(), 300);
+                }
+            });
+        }, { threshold: 0.1 });
+        mapObserver.observe(mapElement);
+
         // Define locations to place markers
         const locations = [
             { name: "حي النسيم", coords: [24.7360, 46.8184] },
