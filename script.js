@@ -231,10 +231,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (ctaBg) {
         window.addEventListener('scroll', () => {
             const rect = ctaBg.parentElement.getBoundingClientRect();
+            const viewportCenter = window.innerHeight / 2;
+            const sectionCenter = rect.top + rect.height / 2;
+            
             if (rect.top < window.innerHeight && rect.bottom > 0) {
-                const speed = 0.3;
-                const yPos = -(rect.top * speed);
-                ctaBg.style.transform = `translateY(${yPos}px)`;
+                const speed = 0.15; // Reduced speed for better control
+                const yPos = (viewportCenter - sectionCenter) * speed;
+                // Limit movement to bleed area (100px)
+                const limitedYPos = Math.max(-80, Math.min(80, yPos));
+                ctaBg.style.transform = `translateY(${limitedYPos}px)`;
             }
         });
     }
@@ -251,10 +256,11 @@ document.addEventListener('DOMContentLoaded', () => {
             maxZoom: 18,
         }).addTo(map);
 
-        // Fix for mobile rendering issues
-        setTimeout(() => {
-            map.invalidateSize();
-        }, 500);
+        // Fix for mobile rendering issues - multiple attempts
+        setTimeout(() => { map.invalidateSize(); }, 100);
+        setTimeout(() => { map.invalidateSize(); }, 500);
+        setTimeout(() => { map.invalidateSize(); }, 1000);
+        setTimeout(() => { map.invalidateSize(); }, 2000);
 
         window.addEventListener('resize', () => {
             map.invalidateSize();
@@ -264,10 +270,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const mapObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    setTimeout(() => map.invalidateSize(), 300);
+                    setTimeout(() => map.invalidateSize(), 100);
+                    setTimeout(() => map.invalidateSize(), 400);
                 }
             });
-        }, { threshold: 0.1 });
+        }, { threshold: 0.05 });
         mapObserver.observe(mapElement);
 
         // Define locations to place markers
