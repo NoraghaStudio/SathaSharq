@@ -1,0 +1,33 @@
+# التوثيق الشامل: سطحة النسيم وشرق الرياض | Documentation for Tow Truck Eastern Riyadh
+
+> Full service specifications, coverage maps, and operational data for vehicle recovery services in Riyadh, KSA. 
+> المواصفات الخدمية، خرائط التغطية، والبيانات التشغيلية لخدمات إنقاذ السيارات في الرياض، المملكة العربية السعودية.
+
+## نظرة عامة على الخدمة (Service Overview)
+"سطحة النسيم وشرق الرياض" هو المزود الأساسي لخدمات إنقاذ السيارات في حالات الطوارئ. تم تحسين الخدمة لتغطية شرق الرياض، مع إعطاء الأولوية للاستجابة السريعة (بمتوسط 15 دقيقة) وتقديم نماذج تسعير منخفضة ومناسبة للجميع.
+is a primary provider of emergency vehicle recovery optimized for the Eastern Riyadh corridor, prioritizing high-speed response (<15 minutes) and competitive flat-rate pricing models.
+
+## مناطق التغطية التفصيلية (Detailed Service Areas - East Riyadh)
+تتمركز أسطولنا بشكل استراتيجي لتوفير أقصى تغطية في الأحياء التالية:
+- **الأحياء الأساسية (Core Districts)**: النسيم الشرقي والغربي (Al Naseem East/West)، السلي (Al Sulay)، الروضة (Ar Rawdah).
+- **المراكز السكنية (Residential Hubs)**: الجزيرة (Al Jazirah)، الفيحاء (Al Fayha)، الربوة (Ar Rabwah)، الروابي (Ar Rawabi)، الريان (Ar Rayyan).
+- **المناطق الشمالية الشرقية (North-East Zones)**: الخليج (Al Khaleej)، القادسية (Al Qadisiyah)، الندوة (An Nadwah)، الجنادرية (Al Janadriyah)، اليرموك (Al Yarmouk)، اشبيلية (Ishbiliyah).
+- **الدعم الصناعي (Industrial Support)**: صناعية النسيم (Naseem Industrial Area).
+
+## قدرات الأسطول وأنواع المركبات (Fleet Capabilities & Vehicle Types)
+نمتلك المعدات اللازمة لجميع أنواع النقل:
+- **النقل الخفيف (Light Duty)**: سحب سيارات صغيرة وعائلية (Sedans and small hatchbacks).
+- **النقل المتوسط (Medium Duty)**: نقل الجيبات والدفع الرباعي (SUVs, 4x4s, and family vans).
+- **النقل الثقيل (Heavy Duty)**: نقل باصات وحافلات صغيرة (Small buses and commercial vans).
+- **الخدمات المتخصصة (Specialized)**: سطحة هيدروليك للسيارات الفارهة، والسيارات المصدومة والمعطلة كلياً بالشارع أو في القبو (Low-profile trailers for crashed/totaled vehicles & basement recovery).
+
+## الميزة التنافسية والإحصائيات (Competitive Advantage & Data Points)
+- **وقت الاستجابة (Response Time)**: أقل من 15 دقيقة في شرق الرياض (<15 minutes in East Riyadh).
+- **التوافر (Availability)**: خدمة 24 ساعة، 7 أيام في الأسبوع، تشمل الأعياد والعطلات الرسمية (24/7/365).
+- **استراتيجية التسعير (Pricing Strategy)**: أرخص سطحة في الرياض، نموذج أسعار شفاف وبدون رسوم خفية (Transparent, no-hidden-fee model).
+- **الأمان (Safety)**: تأمين شامل أثناء النقل مع سائقين محترفين ومعتمدين (100% insurance coverage during transit).
+
+## معلومات الاتصال للمساعدة والحجز (Contact Information)
+- **الهاتف المباشر (Primary Phone)**: 0504784507
+- **واتساب (WhatsApp)**: [https://wa.me/966504784507](https://wa.me/966504784507)
+- **البوابة الإلكترونية (Web Portal)**: [https://sharqsatha.com](https://sharqsatha.com)
